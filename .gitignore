@@ -1,0 +1,33 @@
+# Node & Build directories
+node_modules/
+dist/
+build/
+
+# Local Environment Variables (SENSITIVE)
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+
+# Uploads and logs
+uploads/
+logs/
+*.log
+
+# Backend specific ignores
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.production
+backend/uploads/
+backend/logs/
+backend/*.log
+
+# Frontend specific ignores
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/dist/
+frontend/build/
