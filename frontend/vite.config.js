@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/connectsphere/',
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 1000, // Adjust the chunk size warning limit
